@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pubmedfetchandcliusingpoetry"
+version = "0.1.0"
+description = "A CLI tool to fetch papers from PubMed with non-academic author filtering."
+authors = ["DONTHI GEETHIKA BHARGAVI <DONTHIGEETHIKABHARGAVI@GMAIL.COM>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"  # Updated for compatibility with stable Python versions
+requests = "^2.32.3"
+lxml = "^5.3.1"
+twine = "^6.1.0"
+
+[tool.poetry.scripts]
+get-papers-list = "pubmedpaperfetcher.get_papers_list:main"  # Ensure this matches your code structure
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"     # For testing
+pytest-cov = "^3.0" # For coverage reporting
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.packages]]
+include = "pubmedpaperfetcher" 
+
