@@ -1,4 +1,4 @@
-# 🧑‍🔬 Fetch Research Papers from PubMed 📄
+# 🧑‍🔬 PubMed Paper Extractor 📄
 
 This Python program fetches research papers from the PubMed API based on a user-specified query. It identifies papers with at least one author affiliated with a pharmaceutical or biotech company and returns the results in a CSV format.
 
