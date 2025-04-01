@@ -30,7 +30,7 @@ This Python program fetches research papers from the PubMed API based on a user-
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/DonthiGeethikaBhargavi/pubmed-paperfetcher-and-cli.git
+    git clone https://github.com/username/pubmed-paperfetcher-and-cli.git
     cd pubmed-paperfetcher-and-cli
     ```
 
